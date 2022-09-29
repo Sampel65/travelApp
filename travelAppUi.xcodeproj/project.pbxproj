@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA18DCE28E4EBE200061066 /* travelAppUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA18DCD28E4EBE200061066 /* travelAppUiApp.swift */; };
+		CEA18DD028E4EBE200061066 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA18DCF28E4EBE200061066 /* ContentView.swift */; };
+		CEA18DD228E4EBEE00061066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DD128E4EBEE00061066 /* Assets.xcassets */; };
+		CEA18DD528E4EBEE00061066 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DD428E4EBEE00061066 /* Preview Assets.xcassets */; };
+		CEA18DEF28E4FFE700061066 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DDC28E4FFE600061066 /* Roboto-Italic.ttf */; };
+		CEA18DF028E4FFE700061066 /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DDD28E4FFE600061066 /* Apache License.txt */; };
+		CEA18DF128E4FFE700061066 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DDE28E4FFE600061066 /* Roboto-Bold.ttf */; };
+		CEA18DF228E4FFE700061066 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DDF28E4FFE700061066 /* Roboto-Thin.ttf */; };
+		CEA18DF328E4FFE700061066 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE028E4FFE700061066 /* RobotoCondensed-Regular.ttf */; };
+		CEA18DF428E4FFE700061066 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE128E4FFE700061066 /* Roboto-Regular.ttf */; };
+		CEA18DF528E4FFE700061066 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE228E4FFE700061066 /* Roboto-Black.ttf */; };
+		CEA18DF628E4FFE700061066 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE328E4FFE700061066 /* Roboto-Light.ttf */; };
+		CEA18DF728E4FFE700061066 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE428E4FFE700061066 /* Roboto-LightItalic.ttf */; };
+		CEA18DF828E4FFE700061066 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE528E4FFE700061066 /* RobotoCondensed-Italic.ttf */; };
+		CEA18DF928E4FFE700061066 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE628E4FFE700061066 /* Roboto-MediumItalic.ttf */; };
+		CEA18DFA28E4FFE700061066 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE728E4FFE700061066 /* RobotoCondensed-LightItalic.ttf */; };
+		CEA18DFB28E4FFE700061066 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE828E4FFE700061066 /* Roboto-ThinItalic.ttf */; };
+		CEA18DFC28E4FFE700061066 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DE928E4FFE700061066 /* RobotoCondensed-Bold.ttf */; };
+		CEA18DFD28E4FFE700061066 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DEA28E4FFE700061066 /* Roboto-Medium.ttf */; };
+		CEA18DFE28E4FFE700061066 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DEB28E4FFE700061066 /* Roboto-BoldItalic.ttf */; };
+		CEA18DFF28E4FFE700061066 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DEC28E4FFE700061066 /* RobotoCondensed-BoldItalic.ttf */; };
+		CEA18E0028E4FFE700061066 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DED28E4FFE700061066 /* RobotoCondensed-Light.ttf */; };
+		CEA18E0128E4FFE700061066 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA18DEE28E4FFE700061066 /* Roboto-BlackItalic.ttf */; };
+		CEA18E0428E5038100061066 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA18E0328E5038100061066 /* HomeView.swift */; };
+		CEA18E0628E519E100061066 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA18E0528E519E100061066 /* detailView.swift */; };
+		CEA18E0828E5BC8900061066 /* ExpandedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA18E0728E5BC8600061066 /* ExpandedText.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEA18DCA28E4EBE200061066 /* travelAppUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelAppUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA18DCD28E4EBE200061066 /* travelAppUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelAppUiApp.swift; sourceTree = "<group>"; };
+		CEA18DCF28E4EBE200061066 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA18DD128E4EBEE00061066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA18DD428E4EBEE00061066 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA18DDC28E4FFE600061066 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		CEA18DDD28E4FFE600061066 /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		CEA18DDE28E4FFE600061066 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CEA18DDF28E4FFE700061066 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		CEA18DE028E4FFE700061066 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		CEA18DE128E4FFE700061066 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CEA18DE228E4FFE700061066 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		CEA18DE328E4FFE700061066 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CEA18DE428E4FFE700061066 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		CEA18DE528E4FFE700061066 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		CEA18DE628E4FFE700061066 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CEA18DE728E4FFE700061066 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		CEA18DE828E4FFE700061066 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CEA18DE928E4FFE700061066 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		CEA18DEA28E4FFE700061066 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CEA18DEB28E4FFE700061066 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CEA18DEC28E4FFE700061066 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CEA18DED28E4FFE700061066 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		CEA18DEE28E4FFE700061066 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CEA18E0228E5004C00061066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEA18E0328E5038100061066 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEA18E0528E519E100061066 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		CEA18E0728E5BC8600061066 /* ExpandedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedText.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA18DC728E4EBE200061066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA18DC128E4EBE200061066 = {
+			isa = PBXGroup;
+			children = (
+				CEA18DCC28E4EBE200061066 /* travelAppUi */,
+				CEA18DCB28E4EBE200061066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA18DCB28E4EBE200061066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA18DCA28E4EBE200061066 /* travelAppUi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA18DCC28E4EBE200061066 /* travelAppUi */ = {
+			isa = PBXGroup;
+			children = (
+				CEA18E0228E5004C00061066 /* Info.plist */,
+				CEA18DDB28E4FFB900061066 /* Font */,
+				CEA18DCD28E4EBE200061066 /* travelAppUiApp.swift */,
+				CEA18DCF28E4EBE200061066 /* ContentView.swift */,
+				CEA18E0328E5038100061066 /* HomeView.swift */,
+				CEA18E0728E5BC8600061066 /* ExpandedText.swift */,
+				CEA18E0528E519E100061066 /* detailView.swift */,
+				CEA18DD128E4EBEE00061066 /* Assets.xcassets */,
+				CEA18DD328E4EBEE00061066 /* Preview Content */,
+			);
+			path = travelAppUi;
+			sourceTree = "<group>";
+		};
+		CEA18DD328E4EBEE00061066 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA18DD428E4EBEE00061066 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA18DDB28E4FFB900061066 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CEA18DDD28E4FFE600061066 /* Apache License.txt */,
+				CEA18DE228E4FFE700061066 /* Roboto-Black.ttf */,
+				CEA18DEE28E4FFE700061066 /* Roboto-BlackItalic.ttf */,
+				CEA18DDE28E4FFE600061066 /* Roboto-Bold.ttf */,
+				CEA18DEB28E4FFE700061066 /* Roboto-BoldItalic.ttf */,
+				CEA18DDC28E4FFE600061066 /* Roboto-Italic.ttf */,
+				CEA18DE328E4FFE700061066 /* Roboto-Light.ttf */,
+				CEA18DE428E4FFE700061066 /* Roboto-LightItalic.ttf */,
+				CEA18DEA28E4FFE700061066 /* Roboto-Medium.ttf */,
+				CEA18DE628E4FFE700061066 /* Roboto-MediumItalic.ttf */,
+				CEA18DE128E4FFE700061066 /* Roboto-Regular.ttf */,
+				CEA18DDF28E4FFE700061066 /* Roboto-Thin.ttf */,
+				CEA18DE828E4FFE700061066 /* Roboto-ThinItalic.ttf */,
+				CEA18DE928E4FFE700061066 /* RobotoCondensed-Bold.ttf */,
+				CEA18DEC28E4FFE700061066 /* RobotoCondensed-BoldItalic.ttf */,
+				CEA18DE528E4FFE700061066 /* RobotoCondensed-Italic.ttf */,
+				CEA18DED28E4FFE700061066 /* RobotoCondensed-Light.ttf */,
+				CEA18DE728E4FFE700061066 /* RobotoCondensed-LightItalic.ttf */,
+				CEA18DE028E4FFE700061066 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA18DC928E4EBE200061066 /* travelAppUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA18DD828E4EBEE00061066 /* Build configuration list for PBXNativeTarget "travelAppUi" */;
+			buildPhases = (
+				CEA18DC628E4EBE200061066 /* Sources */,
+				CEA18DC728E4EBE200061066 /* Frameworks */,
+				CEA18DC828E4EBE200061066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = travelAppUi;
+			productName = travelAppUi;
+			productReference = CEA18DCA28E4EBE200061066 /* travelAppUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA18DC228E4EBE200061066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CEA18DC928E4EBE200061066 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CEA18DC528E4EBE200061066 /* Build configuration list for PBXProject "travelAppUi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA18DC128E4EBE200061066;
+			productRefGroup = CEA18DCB28E4EBE200061066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA18DC928E4EBE200061066 /* travelAppUi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA18DC828E4EBE200061066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA18DFF28E4FFE700061066 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				CEA18DFE28E4FFE700061066 /* Roboto-BoldItalic.ttf in Resources */,
+				CEA18DFB28E4FFE700061066 /* Roboto-ThinItalic.ttf in Resources */,
+				CEA18DD528E4EBEE00061066 /* Preview Assets.xcassets in Resources */,
+				CEA18DF728E4FFE700061066 /* Roboto-LightItalic.ttf in Resources */,
+				CEA18DFD28E4FFE700061066 /* Roboto-Medium.ttf in Resources */,
+				CEA18DF928E4FFE700061066 /* Roboto-MediumItalic.ttf in Resources */,
+				CEA18DF028E4FFE700061066 /* Apache License.txt in Resources */,
+				CEA18DF628E4FFE700061066 /* Roboto-Light.ttf in Resources */,
+				CEA18DF428E4FFE700061066 /* Roboto-Regular.ttf in Resources */,
+				CEA18E0128E4FFE700061066 /* Roboto-BlackItalic.ttf in Resources */,
+				CEA18DF828E4FFE700061066 /* RobotoCondensed-Italic.ttf in Resources */,
+				CEA18DF328E4FFE700061066 /* RobotoCondensed-Regular.ttf in Resources */,
+				CEA18DF228E4FFE700061066 /* Roboto-Thin.ttf in Resources */,
+				CEA18DFC28E4FFE700061066 /* RobotoCondensed-Bold.ttf in Resources */,
+				CEA18E0028E4FFE700061066 /* RobotoCondensed-Light.ttf in Resources */,
+				CEA18DF528E4FFE700061066 /* Roboto-Black.ttf in Resources */,
+				CEA18DF128E4FFE700061066 /* Roboto-Bold.ttf in Resources */,
+				CEA18DEF28E4FFE700061066 /* Roboto-Italic.ttf in Resources */,
+				CEA18DFA28E4FFE700061066 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				CEA18DD228E4EBEE00061066 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA18DC628E4EBE200061066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA18E0428E5038100061066 /* HomeView.swift in Sources */,
+				CEA18E0628E519E100061066 /* detailView.swift in Sources */,
+				CEA18E0828E5BC8900061066 /* ExpandedText.swift in Sources */,
+				CEA18DD028E4EBE200061066 /* ContentView.swift in Sources */,
+				CEA18DCE28E4EBE200061066 /* travelAppUiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEA18DD628E4EBEE00061066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA18DD728E4EBEE00061066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA18DD928E4EBEE00061066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"travelAppUi/Preview Content\"";
+				DEVELOPMENT_TEAM = T6LQU8TP96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = travelAppUi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BoleNiar-Technologies.travelAppUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA18DDA28E4EBEE00061066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"travelAppUi/Preview Content\"";
+				DEVELOPMENT_TEAM = T6LQU8TP96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = travelAppUi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BoleNiar-Technologies.travelAppUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA18DC528E4EBE200061066 /* Build configuration list for PBXProject "travelAppUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA18DD628E4EBEE00061066 /* Debug */,
+				CEA18DD728E4EBEE00061066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA18DD828E4EBEE00061066 /* Build configuration list for PBXNativeTarget "travelAppUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA18DD928E4EBEE00061066 /* Debug */,
+				CEA18DDA28E4EBEE00061066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA18DC228E4EBE200061066 /* Project object */;
+}
